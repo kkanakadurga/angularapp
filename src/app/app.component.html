@@ -1,0 +1,32 @@
+
+
+<nav class="navbar navbar-light bg-light">
+  
+  
+ <h2>Mobile Store</h2>
+      <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link  " routerLink="home">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " routerLink="about">ABOUT</a>
+          </li>
+          <div class="dropdown  nav-item ">
+            <a class="nav-link " routerLink="products">PRODUCTS</a>
+             <div class="dropdown-content">
+               <a routerLink="products/samsung">Samsung</a>
+               <a href="#">Nokia</a>
+               <a href="#">Vivo</a>
+               <a href="#">Iphone</a>
+          
+             </div>
+           </div>
+       
+          <li class="nav-item">
+            <a class="nav-link " routerLink="login">LOGIN</a>
+          </li>
+        </ul>   
+      
+  
+      </nav>
+<router-outlet></router-outlet>
